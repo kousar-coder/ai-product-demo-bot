@@ -1,3 +1,8 @@
+
+
+---
+
+
 ```markdown
 # 🤖 AI Product Demo Agent
 
@@ -59,6 +64,7 @@ ai-product-demo-agent/
 ## 📦 Setup Instructions
 
 ### ⚙️ Backend (Django DRF)
+
 ```bash
 cd backend
 python -m venv env
@@ -101,5 +107,4 @@ VITE_OPENAI_API_KEY=sk-...
 Built for hackathons, sales automation platforms, and next-gen customer experience.
 
 ---
-
 
