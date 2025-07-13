@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+.env
+*.env
+*.log
+
+# Node / React
+node_modules/
+dist/
+build/
+.env.local
+.env.development
+.env.production
+
+# System
+.DS_Store
+Thumbs.db
+
+# Misc
+*.zip
+*.mp4
+*.mov
