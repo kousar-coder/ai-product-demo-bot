@@ -17,12 +17,12 @@ A smart, voice-controlled AI assistant that delivers live product demos — just
 
 ## 💡 Key Features
 
-- 🎙️ **Voice Commands**: Natural interaction via microphone using OpenAI Whisper
-- 🧠 **Smart Responses**: GPT-4-based answers customized to screen context
-- 🌐 **Live UI Navigation**: AI guides through your product screens
-- 🌓 **Dark Mode Toggle**: Seamless UI switch for modern look
-- 📱 **Responsive Design**: Optimized for all screen sizes
-- 💬 **Transcript Summary**: Email delivery of session logs
+- 🎙️ **Voice Commands**: Natural interaction via microphone using OpenAI Whisper  
+- 🧠 **Smart Responses**: GPT-4-based answers customized to screen context  
+- 🌐 **Live UI Navigation**: AI guides through your product screens  
+- 🌓 **Dark Mode Toggle**: Seamless UI switch for modern look  
+- 📱 **Responsive Design**: Optimized for all screen sizes  
+- 💬 **Transcript Summary**: Email delivery of session logs  
 
 ---
 
@@ -93,6 +93,7 @@ DJANGO_SECRET_KEY=your-secret
 ```
 VITE_OPENAI_API_KEY=sk-...
 ```
+
 ---
 
 ## 🧠 Inspiration
@@ -100,4 +101,5 @@ VITE_OPENAI_API_KEY=sk-...
 Built for hackathons, sales automation platforms, and next-gen customer experience.
 
 ---
+
 
