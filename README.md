@@ -1,7 +1,3 @@
----
-
-### 📄 `README.md`
-
 ```markdown
 # 🤖 AI Product Demo Agent
 
