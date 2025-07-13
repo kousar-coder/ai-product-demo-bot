@@ -1,79 +1,79 @@
+![WhatsApp Image 2025-07-13 at 07 47 53_49f2c663](https://github.com/user-attachments/assets/194e7673-e586-4b2b-a120-32d8a804d202)
 
 
----
-
-
-```markdown
 # 🤖 AI Product Demo Agent
 
-A smart, voice-controlled AI assistant that delivers live product demos — just like a real sales rep. It listens, responds, navigates your product UI, and provides an interactive experience using voice and AI.
+A smart, voice-controlled AI assistant that delivers live product demos — just like a real sales rep. It listens, responds, navigates your product UI, and provides an interactive experience powered by OpenAI.
 
 ---
 
-## 🚀 Live Workflow
+## 🧭 How It Works
 
-1. **User clicks a demo link**  
-2. **AI agent starts screen sharing the product**
-3. **User speaks naturally** (e.g. “Show me the dashboard”)
-4. **AI agent navigates, explains features, and responds live**
-5. **Entire session is recorded and emailed with a transcript**
+1. User clicks a demo link  
+2. AI agent greets the user and shares screen  
+3. User speaks naturally (e.g., “Show me the dashboard”)  
+4. AI navigates the product, explains features, and answers questions  
+5. The session is recorded and a transcript is emailed to the user  
 
 ---
 
-## 💡 Key Features
+## ✨ Features
 
-- 🎙️ **Voice Commands**: Natural interaction via microphone using OpenAI Whisper  
-- 🧠 **Smart Responses**: GPT-4-based answers customized to screen context  
-- 🌐 **Live UI Navigation**: AI guides through your product screens  
-- 🌓 **Dark Mode Toggle**: Seamless UI switch for modern look  
-- 📱 **Responsive Design**: Optimized for all screen sizes  
-- 💬 **Transcript Summary**: Email delivery of session logs  
+- 🎙 **Voice Control** — Real-time interaction using OpenAI Whisper  
+- 🧠 **Context-Aware Replies** — GPT-4 responses tailored to UI state  
+- 🖱 **Live UI Navigation** — Walkthroughs guided by user commands  
+- 🌗 **Dark Mode Support** — Accessible and aesthetic design  
+- 📱 **Responsive Interface** — Mobile-first, fluid layout  
+- 📨 **Session Logs** — Auto-email with recording and transcript  
 
 ---
 
 ## 🛠️ Tech Stack
 
-### 🎯 Frontend
-- **React.js**, **Tailwind CSS**, **Framer Motion**
-- React Router, Dark Mode toggle, Responsive grid layout
+### 🖥 Frontend
+- React.js  
+- Tailwind CSS  
+- Framer Motion  
+- React Router  
 
-### 🔧 Backend
-- **Python**, **Django**, **Django REST Framework (DRF)**
-- RESTful API integration with OpenAI services
+### 🔙 Backend
+- Python  
+- Django  
+- Django REST Framework  
 
-### 🔊 AI Services
-- **OpenAI Whisper API** – Real-time speech-to-text
-- **OpenAI GPT-4** – Conversational and contextual product walkthroughs
+### 🧠 AI Integration
+- [OpenAI Whisper API](https://openai.com/research/whisper) — Speech-to-text  
+- [OpenAI GPT-4](https://openai.com/gpt-4) — Conversational AI  
 
 ---
 
-## 📁 Folder Structure
+## 📁 Project Structure
 
 ```
 
 ai-product-demo-agent/
-├── frontend/            # React.js client with voice UI
-├── backend/             # Django + DRF API server
-├── .env                 # Environment variables (OpenAI keys, etc.)
-├── README.md
+├── frontend/            # React client for voice UI
+├── backend/             # Django REST API for AI communication
+├── .env                 # Environment configuration
+├── README.md            # Project documentation
 
 ````
 
 ---
 
-## 📦 Setup Instructions
+## ⚙️ Setup Instructions
 
-### ⚙️ Backend (Django DRF)
+### Backend (Django + DRF)
 
 ```bash
 cd backend
 python -m venv env
-source env/bin/activate  # or env\Scripts\activate on Windows
+source env/bin/activate      # or env\Scripts\activate on Windows
 pip install -r requirements.txt
 python manage.py runserver
 ````
 
-### 🌐 Frontend (React.js)
+### Frontend (React + Vite)
 
 ```bash
 cd frontend
@@ -85,26 +85,36 @@ npm run dev
 
 ## 🔐 Environment Variables
 
-Create a `.env` file in both `frontend/` and `backend/` directories.
+Create a `.env` file in both `frontend/` and `backend/`.
 
-### Example `.env` for Backend:
-
-```
-OPENAI_API_KEY=sk-...
-DJANGO_SECRET_KEY=your-secret
-```
-
-### Example `.env` for Frontend:
+### `.env` (Backend)
 
 ```
-VITE_OPENAI_API_KEY=sk-...
+OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxx
+DJANGO_SECRET_KEY=your-secret-key
+```
+
+### `.env` (Frontend)
+
+```
+VITE_OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxx
 ```
 
 ---
 
-## 🧠 Inspiration
+## 🧠 Use Cases
 
-Built for hackathons, sales automation platforms, and next-gen customer experience.
+* Product demos for SaaS platforms
+* Sales automation & onboarding
+* Virtual assistants for customer support
+* AI-enhanced user walkthroughs
 
 ---
+
+## 📬 Feedback & Contributions
+
+Feel free to fork, improve, and raise pull requests. For feature requests or issues, open a GitHub issue or contact the maintainer.
+
+---
+
 
